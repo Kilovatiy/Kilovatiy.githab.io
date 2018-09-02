@@ -28,10 +28,13 @@ header {
 }
 
 .header-btn {
+  display: inline-block;
+  text-decoration: none;
   box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
   border-radius: 35px;
   background-color: #ffffff;
-  color: #072b6f;
+  color:black;
+  /* color: #072b6f; */
   font-size: 18px;
   font-weight: 700;
   padding: 17px 55px;
@@ -41,12 +44,15 @@ header {
 .header-btn::before::after:hover {
   box-sizing: border-box;
   outline: none !important;
+  color:black;
 }
 .header-btn:hover {
   /* border: 1px solid #cddced; */
   background-color: #dddddd;  
   box-sizing: border-box;
   outline: none;
+  color:black;
+  text-decoration: none;
 }
 
 header small {
@@ -54,9 +60,13 @@ header small {
   display: inline-block;
   text-align: center;
   margin-top: 9px;
+  color: #fff;
 }
 .header-button-block {
   max-width: 210px;
+  color:black;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Portfolio section */
@@ -170,6 +180,7 @@ footer {
 }
 .footer-btn {
   display: inline-block;
+  text-decoration: none;
   border-radius: 24px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -181,6 +192,8 @@ footer {
 }
 .footer-btn:hover {
   background-color: #2a5cb9;
+  text-decoration: none;
+  color: #fff;
 }
 
 @media(max-width: 1200px) {
